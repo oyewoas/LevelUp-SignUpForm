@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/frameworks/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <title>Sign Up | Homepage</title>
 </head>
+
 <body>
     <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">LevelUp Academy</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link " href="#">Sign Up</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </nav>   
+        <nav class="navbar navbar-expand-lg fixed-top ">
+            <a class="navbar-brand" href="#">LevelUp Academy</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
         <div class="container-fluid">
@@ -39,72 +43,77 @@
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
                     <div class="form">
-                            <form>
-                                    <div class="form-group">
-                                            <label for="firstname">First name</label>
-                                            <input type="text" class="form-control" id="firstname" placeholder="First name">
-                                          </div>
-                                          <div class="form-group">
-                                                <label for="lastname">Last name</label>
-                                                <input type="text" class="form-control" id="lastname" placeholder="Last name">
-                                              </div>
-                                    <div class="form-group">
-                                      <label for="emailaddress">Email address</label>
-                                      <input type="email" class="form-control" id="emailaddress" aria-describedby="emailHelp" placeholder="Enter email">
-                                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                    </div>
-                                    <div class="form-group">
-                                      <label for="phoneno">Phone number</label>
-                                      <input type="tel" class="form-control" id="phoneno" placeholder="Phone number">
-                                    </div>
-                                    <div class="form-row">
-                                        <legend class="dateofbirthlegend">Date of birth</legend>
-                                            <div class="form-group col-md-4">
-                                             
-                                              <select class="custom-select " id="yearselect">
-                                                    <option selected>Year...</option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                  </select>
-                                            </div>
-                                            <div class="form-group col-md-4">
-                                              <select class="custom-select " id="monthselect">
-                                                    <option selected>Month...</option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                  </select>
-                                            </div>
-                                            <div class="form-group col-md-4">
-                                                    <select class="custom-select " id="dayselect">
-                                                            <option selected>Day...</option>
-                                                            <option value="1">One</option>
-                                                            <option value="2">Two</option>
-                                                            <option value="3">Three</option>
-                                                          </select>
-                                                  </div>
-                                          </div>
-                                          <div class="form-group">
-                                                <label for="gender">Gender</label>
-                                                <select class="custom-select " id="gender">
-                                                        <option selected>Choose...</option>
-                                                        <option value="male">Male</option>
-                                                        <option value="female">Female</option>
-                                                      </select>
-                                              </div>
-                                              
-                                    <div class="signupbtn">
-                                    <button type="submit" class="btn btn-primary">Submit</button>
+                        <form>
+                            <legend class="formlegend text-center">Create Account</legend>
+                            <div class="form-group">
+                                <label for="firstname">First name</label>
+                                <input type="text" class="form-control" id="firstname" placeholder="Enter First name">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastname">Last name</label>
+                                <input type="text" class="form-control" id="lastname" placeholder="Enter Last name">
+                            </div>
+                            <div class="form-group">
+                                <label for="emailaddress">Email address</label>
+                                <input type="email" class="form-control" id="emailaddress" aria-describedby="emailHelp"
+                                    placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneno">Phone number</label>
+                                <input type="tel" class="form-control" id="phoneno" placeholder="Enter Phone number">
+                            </div>
+                            <div class="form-row">
+                                <legend class="dateofbirthlegend">Date of birth</legend>
+                                    <div class="form-group col-md-4">
 
+                                        <select class="custom-select " id="yearselect">
+                                            <option selected>Year...</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
                                     </div>
-                                  </form>
+                                    <div class="form-group col-md-4">
+                                        <select class="custom-select " id="monthselect">
+                                            <option selected>Month...</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <select class="custom-select " id="dayselect">
+                                            <option selected>Day...</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="gender">Gender</label>
+                                <select class="custom-select " id="gender">
+                                    <option selected>Choose...</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </div>
+
+                            <div class="signupbtn text-center">
+                                <button type="submit" class="btn ">Sign Up</button>
+
+                            </div>
+                        </form>
                     </div>
                 </div>
                 <div class="col-md-4"></div>
             </div>
         </div>
     </main>
-    
+
+    <script src="assets/js/frameworks/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>

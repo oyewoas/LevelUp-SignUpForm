@@ -1,0 +1,110 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+     }
+
+
+body {
+    background-image: url('../images/chairs-2181994_1280.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    
+}
+
+nav{
+    background-color: rgb(32,99,155);
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: white;
+}
+
+
+.form{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+    margin-top: 120px;
+}
+.form{
+    background-color: rgb(32,99,155, .2);
+}
+.form:hover{
+    background-color: rgb(32,99,155);
+}
+
+.formlegend{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+
+.nav-link{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.nav-item{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.nav-link:hover{
+    color: white;
+    opacity: 0.7;
+}
+.signupbtn .btn{
+    background-color: white;
+    color:rgb(32,99,155);
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 7px 35px;
+    font-size: 14px;
+    box-shadow: 1px grey;
+    margin-top: 20px;
+}
+
+.form label{
+    color: rgb(138, 133, 133);
+    font-size: 16px;
+}
+
+.form .dateofbirthlegend{
+    color: grey;
+    font-size: 16px;
+    padding-left: 6px;
+}
+
+.form .form-control{
+    border: none;
+    border-radius: 0px;
+    background-color: lavender;
+    font-size: 12px;
+    color: black
+    
+}
+
+.form .custom-select{
+    border: none;
+    border-radius: 0px;
+    background-color: lavender;
+    font-size: 12px;
+    
+}
